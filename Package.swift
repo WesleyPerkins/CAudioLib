@@ -21,8 +21,5 @@ let package = Package(
         .target(
             name: "CAudioLib",
             dependencies: []),
-        .testTarget(
-            name: "CAudioLibTests",
-            dependencies: ["CAudioLib"]),
     ]
 )
